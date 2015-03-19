@@ -4,6 +4,7 @@
 	<div id="warapper"><!-- コンテンツ終了 -->
 	<section class="main clearfix">
 		<div class="figure">
+			gitテスト
 			<img src="<?php if (function_exists('z_taxonomy_image_url')) echo z_taxonomy_image_url(); ?>" />
 		</div>
 		<div class="information">

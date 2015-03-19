@@ -1,0 +1,32 @@
+.two{
+	display: -webkit-flexbox;
+	display: -moz-flexbox;
+	display: -ms-flexbox;
+	display: -o-flexbox;
+	display: flex;
+	flex-direction:column;
+}
+
+.schoolimg{
+	order:2;
+}
+
+.explain{
+	order:1;
+}
+
+.explain h3{
+	margin: 10px 0 5px 0;
+	padding: 8px 0px 8px 10px;
+	background: #4bb7a5;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+.explain h4{
+	margin:5px;
+}
+
+.info{
+	margin:5px;
+}

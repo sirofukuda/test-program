@@ -1,0 +1,369 @@
+a:hover{
+text-decoration: underline;
+}
+
+#warpper{
+margin-bottom:15px;
+}
+
+/* カラム */
+
+#contents{
+width:1000px;
+
+}
+
+#main{
+width:690px !important;
+height:auto !important;
+float:left !important;
+margin:15px 10px 10px 0px !important;
+background-color:#fff !important;
+padding-right:0px !important;
+}
+
+#aside{
+width:300px !important;
+height:auto !important;
+float:left !important;
+margin:10px 0px 0px 0px !important;
+}
+
+
+/* 画面上部 */
+
+#singlemain{
+width:700px;
+margin-bottom:14px;
+}
+
+h2{
+font-size:32px;
+line-height: 40px;
+margin:10px 0px 7px 0px;
+padding:0px 0px 10px 0px;
+font-weight:bold;color:#333333;
+background-image:url(img/title/head011_01.png);
+background-position:bottom;background-repeat:repeat-x;
+}
+
+#singlefigure{
+float:left;
+width:360px;
+height:auto;
+
+}
+
+#singlefigure img{
+width:360px;
+height: auto
+}
+
+#singleinformation{
+float:left;
+width:320px;
+height:auto;
+padding:8px;}
+
+#singleinformation h2{
+margin:5px 0 10px 0;
+}
+
+#singleinformation img{
+margin:5px;
+}
+
+#singleinformation p{
+padding:0px !important;
+line-height: 1.5em
+}
+
+/* 難易度表など */
+
+.table{
+width:320px;
+border-bottom:dotted 1px;
+margin-bottom:12px;
+padding-bottom:6px;
+}
+.table ul{
+padding-left:10px !important;
+margin:0px 5px 8px 5px;
+padding-top:2px;
+padding-bottom:6px;
+border-bottom:dotted 1px;
+}
+
+.table ul li{
+display:inline;
+list-style-type: none;
+display: table-cell;
+}
+
+
+/* セクションで表を作る */
+
+.dif{
+margin-left:5px;
+width:95px;
+float:left;
+font-weight: bold;
+}
+
+.number{
+width:210px;
+float:left;
+}
+
+/* 主催 */
+
+.categorylast{
+width:320px;
+margin-bottom:5px;
+padding-bottom:3px;
+}
+.categorylast ul{
+padding-left:10px !important;
+margin:0px 5px 8px 5px;
+padding-top:2px;
+padding-bottom:6px;
+border-bottom:dotted 1px;
+}
+
+.categorylast ul li{
+display:inline;
+list-style-type: none;
+display: table-cell;
+}
+
+
+/* 広告 */
+
+#lady{
+position: relative;
+}
+
+#man{
+width:490px;
+position: absolute;
+right:20px;
+bottom:10px;
+}
+
+#man p {
+font-size:13px;
+padding:5px 10px 5px 0px !important;
+}
+
+#man h4{
+margin:0px 0px 5px 0px;
+color:red;
+font-weight: bold;
+}
+
+/* 資格詳細 */
+
+#main h3{
+border:solid 1px #ddd;
+-moz-border-radius: 5px; /* FF */
+-webkit-border-radius: 5px;/* Webkit */
+border-radius: 5px;
+background: #eee;
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+background: -moz-linear-gradient(top,  #fff,  #eee);
+padding: 5px;
+-pie-background:linear-gradient(top,  #fff,  #eee);
+behavior: url(http://www.webcreatorbox.com/sample/images/PIE.htc);  /* ie */
+font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ",Helvetica,Sans-Serif;
+margin:7px 0 7px 0;
+}
+
+#main h3 span{
+border-left:5px #F75F5F solid;
+padding-left:10px;
+}
+
+#main p {
+padding:10px;
+}
+
+.cheack{
+color:#F75F5F;
+}
+
+#main table{
+border-collapse:collapse;
+margin:15px;
+width:80%;
+text-align:center;
+}
+
+#main table th{
+background-color:#FFF5E5;
+}
+
+#main table th,td{
+border:solid 1px;
+padding:5px;
+}
+
+#main table tr:hover{
+cursor:pointer;
+background-color:#FFE8E8;
+}
+
+
+/* 取得すると出来る仕事 */
+
+#work{
+width:670px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+#workimg{
+float:right;
+width:280px;
+height:auto;
+margin-right:15px;
+margin-top:10px;
+}
+
+#workimg img{
+width:280px;
+height:auto;
+float:left;
+margin:5px 0px 5px 5px;
+}
+
+#main h4{
+    position: relative;
+    margin: 1.2em 0.5em 0.3em 0.5em;
+    padding: 0.5em;
+    font-size: 1.02em;
+    font-weight: bold;
+    color: #fff;
+    background: #F75F5F;
+}
+
+#main h4:before{
+    content: "<";
+    position: absolute;
+    top: middle;
+    left: -10px;
+    width: 0;
+    height: 0;
+    font-size: 25px;
+    line-height: 1.0;
+    color: #c96;
+}
+
+#main h4:after{
+	content:" ";
+	position:absolute;
+	top:-2px;
+	left:-10px;
+	width:0;
+	height:130%;
+	border:#F75F5F solid 2px;
+	border-radius:2px;
+	transform: rotate(-2deg);
+ 
+}
+
+/* 特徴 */
+
+#feature {
+margin-bottom:25px;
+}
+
+#feature h3{
+margin-bottom:15px;
+}
+
+#exam > #heading3{
+margin-bottom: 0.4em;
+}
+
+
+/* 取得可能な学校 */
+
+#ad2 ul{
+padding:0px;
+list-style-type: none;
+
+}
+
+#ad2 ul li{
+display:inline;
+margin-right: 10px;
+}
+
+/* サイドメニュー 
+
+#aside h3{
+width:290px;
+margin:0 0 5px 0;
+padding:8px 10px;
+background: #4bb7a5;
+color:#FFF;
+border-radius:5px;
+}
+
+#aside ul{
+list-style-type: none;
+padding-left:10px;
+}
+
+#aside ul li{
+margin-bottom:7px;
+padding:3px;
+border-bottom: dotted 1px;
+}
+*/
+
+/* タグ */
+
+.tag {
+padding-top: 0px !important;
+padding-left: 0px !important;
+overflow: hidden !important;
+margin: 16px 0px 0px !important;
+}
+
+.tag li {
+display: block !important;
+float: left !important;
+line-height: 100% !important;
+border:0px #fff !important;
+}
+
+.tag li a{
+display: block !important;
+background: none repeat scroll 0% 0% #F75F5F; !important;
+color: #FFF !important;
+text-decoration: none !important;
+font-size: 90% !important;
+padding: 3px 9px 3px !important;
+margin: 0px 5px 5px 0px !important;
+transition: all 0.3s ease 0s !important;
+border-radius: 3px !important;
+}
+}
+
+/* 広告 */
+
+
+#ad2{
+margin-top:10px;
+width:670px;
+height:100px;
+background-color:#fff;
+}
+
+.adlist{
+float:left;
+margin-top:20px;
+margin-left:10px;
+margin-right:25px;
+;}

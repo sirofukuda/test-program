@@ -1,0 +1,517 @@
+/* 全体 */
+::selection {
+	background: #DEEFFF;
+}
+
+/*Firefoxに対応*/
+::-moz-selection {
+	background: #DEEFFF;
+}
+
+body{
+margin:0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+p{
+line-height: 1.5em;
+margin:0px;
+}
+
+a{
+text-decoration: none;
+color:#313131;
+outline:none;
+}
+
+a:hover{
+opacity: 0.6;
+transition: 0.5s;
+text-decoration: underline;
+}
+
+#warapper{
+width:1000px;
+margin:0 auto;
+padding-bottom:15px;
+}
+
+#toggle{
+display: none;
+}
+
+/* カラムの設定 */
+
+#contents{
+width:1000px;
+}
+
+#article{
+width:700px;	
+float:left;
+}
+
+#aside{
+margin-left: 0px;
+width:300px;
+float:right;
+}
+
+/* 固定ページテンプレ */
+
+#main{
+width:680px;
+padding-right:20px;
+float:left;
+}
+
+#pageaside{
+margin:10px 0 0 0;
+width:300px;
+float:right;
+}
+
+/* 特集カラム */
+
+#fe-article{
+width:660px;
+float:left;
+}
+
+#fe-aside{
+width:340px;
+float:right;
+}
+
+/* ヘッダー  タイトルとアウトライン*/
+
+#topbelt{
+width:1000px;
+margin:0 auto;
+}
+
+
+#outline{
+float:right;
+padding:0px;
+font-size:small;
+margin-top:56px;
+}
+
+#outline li{
+display:inline;
+margin-right:0px;
+margin-left:20px;
+}
+
+#title{
+width:360px;
+float:left;
+margin:22px 0px;
+}
+
+
+#title a{
+font-size:2em;
+font-weight: bold;
+margin-left:12px;
+}
+
+#title img{
+width:64px;
+margin-right:12px;
+vertical-align: -20px
+}
+
+/* ヘッダー  グローバルナビゲーション*/
+
+#menu-box{
+margin:0 auto;
+}
+
+#menu-box nav{
+background-color:#4bb7a5;
+height:36px;
+border-bottom: 3px solid #16a085;
+//background:url(../img/bat.png);
+}
+
+#menu-box nav ul{
+width:1000px;
+height:36px;
+padding:0px;
+margin:0px 6px 0px 15px;
+margin-left:auto;
+margin-right:auto;
+display:table;
+table-layout: fixed;
+}
+
+#menu-box nav ul li{
+list-style-type: none;
+font-size:20px;
+display:table-cell;
+vertical-align:middle;
+line-height: 36px;
+border-right: solid 1px #fff;
+font-weight: bold;
+text-align:center;
+}
+
+#menu-box nav ul li:first-child{
+border-left: solid 1px #fff;
+}
+
+#menu-box nav ul li a{
+display:block;  
+line-height: 36px;
+color:#fff;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+#menu-box nav ul li a:hover {
+background:#4bb7a5;
+}
+
+.headerBottom {
+border: 1px solid #eee;
+background: #f5f5f5;
+text-align: right;
+margin:0;
+padding:0;
+}
+
+.headerBottomInr {
+width: 980px;
+margin: 0 auto;
+padding: 3px;
+}
+
+.headerBottom h1 {
+color: #aaa;
+font-size: 83%;
+font-weight: normal;
+margin:0;
+}
+
+/*　パンクズ */
+
+.breadcrumbs{
+width:700px;
+padding:5px 0px;
+}
+
+/* トップ写真 */
+
+
+.main{
+width:990px;
+margin-top:14px;
+margin-bottom:14px;
+margin-left:auto;
+margin-right:auto;
+background-color: #f3f3f3;
+border: solid 1px #b5b5b5;
+padding:5px;
+}
+
+.figure{
+float:left;
+width:480px;
+height:240px;
+background-color:#f3f3f3;
+}
+
+.figure img{
+width:440px;
+margin:10px;
+padding-bottom: 10px;
+}
+
+.information{
+float:left;
+width:480px;
+height:240px;
+margin:0 10px 0 10px;
+position:relative;
+}
+
+/* トップ見出し */
+
+.information h2{
+font-size:28px;
+height:30px;
+margin:5px 5px 5px 0px;
+padding:8px 0px 5px 0px;
+font-weight:bold;color:#333333;
+border-bottom: solid 1px #b5b5b5;
+background-image:url(../img/title/head011_01.png);
+background-position:bottom;background-repeat:repeat-x;
+}
+
+
+.information img{
+margin:0;
+}
+
+/* ソーシャル */
+.social{
+margin-top:5px;
+margin-bottom: 5px !important;
+padding-left:0px !important;
+padding:5px;
+position:absolute;
+bottom:3px;
+
+}
+
+.social li{
+display:inline-block;
+vertical-align: top;
+}
+
+iframe.twitter-share-button {
+width: 90px !important;
+margin-left: 10px;
+}
+
+/* 検索フォーム */
+
+.searchstep h3{
+width:290px;
+margin:0 0 5px 0;
+padding:8px 0px  8px 10px;
+background: #4bb7a5;
+color:#FFF;
+border-radius:5px 5px 0px 0px !important;
+}
+
+.frame{
+background-color: #fff5e5;
+padding-bottom: 2px;
+border: solid 1px #b5b5b5;
+border-radius: 5px;
+margin-bottom:10px;
+}
+
+#tops{
+margin-top:10px;
+width:230px;
+height:20px;
+border-radius: 3px;
+}
+
+#topsearchsubmit{
+  width:28px;
+  height:28px;
+  margin-left:5px
+}
+
+#topview form{
+padding:10px 50px 20px 150px;
+}
+
+#searchform{
+margin:10px 0px 10px 5px;
+}
+
+input[type="image"] {
+width: 28px;
+height: 28px;
+vertical-align: -10px;
+}
+
+.option{
+margin:5px 0px 25px 0px;
+}
+
+.radio{
+margin:5px 0px 5px 0px;
+}
+
+
+.form-group{
+margin-left:10px;
+}
+
+.select{
+float:left;
+width :150px;
+}
+
+.difficult{
+float:left;
+}
+
+.control-label{
+margin-bottom: 5px;
+}
+
+
+/* サイドバー */
+
+.step h3{
+width:290px;
+margin:0 0 5px 0;
+padding:8px 0px  8px 10px;
+background: #4bb7a5;
+color:#FFF;
+border-radius:5px;
+}
+
+#aside ul{
+padding-left: 10px;
+}
+
+#aside ul img{
+width:32px;
+vertical-align:-9px;
+}
+
+#aside ul li{
+list-style-type: none;
+margin-bottom:10px;
+font-size:16px;
+font-weight: 700;
+border-bottom: dotted 1px;
+padding-bottom: 5px;
+}
+
+#abc {
+padding:10px;
+}
+
+.sidebold li{
+font-weight: bold !important;
+}
+
+.sidebold p{
+font-size:12px !important;
+font-weight:500 !important;
+}
+
+
+/* 固定ページ */
+
+#pageaside ul{
+padding-left: 10px;
+}
+
+#pageaside ul img{
+width:32px;
+vertical-align:-9px;
+}
+
+#pageaside ul li{
+list-style-type: none;
+margin-bottom:10px;
+font-size:16px;
+font-weight: 500;
+border-bottom: dotted 1px;
+padding-bottom: 5px;
+}
+
+.sidebold li{
+font-weight: bold !important;
+}
+
+
+/* フッター */
+
+footer{
+background-color:#4bb7a5;
+color:#fff;
+padding:10px 0 0 0 ;
+}
+
+#boilerplate{
+width:1000px;
+margin:0 auto;
+}
+
+#footerlist{
+margin-top:10px;
+width:1000px;
+}
+
+#footerlist ul{
+padding-left:0px;
+}
+
+#footerlist li{
+list-style-type: none;
+margin-bottom:10px;
+}
+
+#footerlist li a{
+color:#fff;
+}
+
+#grmenu{
+width:200px;
+float:left;
+}
+
+#categorylist{
+width:600px;
+float:left;
+}
+
+#categorylist ul{
+width:600px;
+float:left;
+margin:0px;
+}
+#categorylist ul li{
+width:200px;
+float:left;
+
+}
+
+#categorylist ul li a{
+color:#fff;
+}
+
+#steplist{
+width:200px;
+float:left;
+}
+
+
+#company{
+width:1000px;
+margin:0 auto;
+border-top:solid 1px #327a6e;
+border-bottom:solid 1px #327a6e;
+padding-bottom:4px;
+}
+
+#company ul{
+padding:0px;
+margin-top:20px;
+}
+
+#company ul li{
+display:table-cell;
+width:200px;
+}
+
+#company ul li a{
+color:#fff;
+}
+
+#copyright{
+width:1000px;
+padding:20px 0px 20px 0px;
+font-weight: 500
+}
+
+
+

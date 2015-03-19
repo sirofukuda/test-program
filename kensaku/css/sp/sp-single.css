@@ -1,0 +1,61 @@
+
+
+.breadcrumbs{
+	margin: 10px 0px;
+}
+
+#singlefigure img{
+	width: 100%;
+	height: auto;
+}
+
+/*表*/
+.table{
+	margin:10px 5px;
+	border-bottom: dotted 2px #2db0e7;
+}
+
+.dif{
+	font-weight: bold
+}
+
+.number{
+	margin:6px 0px;
+}
+
+#main h3 {
+	margin: 10px 0 5px 0;
+	padding: 8px 0px 8px 10px;
+	background: #4bb7a5;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+#main table{
+border-collapse:collapse;
+margin:15px;
+width:80%;
+text-align:center;
+}
+
+#main table th{
+background-color:#FFF5E5;
+}
+
+#main table th,td{
+border:solid 1px;
+padding:5px;
+}
+
+#main table tr:hover{
+cursor:pointer;
+background-color:#FFE8E8;
+}
+
+h4{
+	margin-left:5px;
+}
+
+.cheack{
+	color: #F75F5F;
+}

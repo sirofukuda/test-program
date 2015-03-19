@@ -1,0 +1,46 @@
+#aside{
+margin-top:10px;
+}
+
+#list ul{
+background:#F75F5F;
+margin:2px 5px 5px 0;
+padding:8px 10px;
+}
+
+#list ul li{
+width:160px;
+display:table-cell;
+color:#fff;;
+}
+
+#list ul li:first-child{
+width:360px;
+}
+
+#list ul li:last-child{
+width:160px;
+}
+
+.name{
+border-bottom: dashed 1px #c0c0c0;
+}
+
+.name ul{
+margin: 0 0 5px 0;
+padding: 8px 10px;
+}
+
+.name ul li{
+width:160px;
+display:table-cell;
+color:#313131;
+}
+
+.name ul li:first-child{
+width:360px;
+}
+
+.name ul li:last-child{
+width:160px;
+}

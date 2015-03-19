@@ -1,0 +1,400 @@
+/*
+Theme Name: kensaku
+Theme URI: http://www.imashimaro.jp/
+Author: siro fukuda
+Author URI: http://dym.asia/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+*/
+
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+
+/* 業界別資格の枠 */
+
+.business h3{
+width:670px;
+margin:0 0 5px 0;
+padding:8px 10px;
+background: #F75F5F;
+color:#FFF;
+border-radius: 5px;
+}
+
+.job{
+float:left;
+//width:334px;
+width:47%;
+height:190px;
+border:solid 1px #b5b5b5;
+margin:7px 14px 7px 0px;
+background-color:#f3f3f3;
+position: relative;
+}
+
+.job h4 img{
+width:46px;
+vertical-align: -15px;
+margin:5px 15px 0px 5px;
+}
+
+.job h4 {
+margin:0px;
+font-size:21px;
+font-family: “sans-serif”;
+}
+
+.job h4 a{
+text-decoration: none; 
+}
+
+.red{
+border-bottom:solid 3px #F75F5F;
+}
+
+.blue{
+border-bottom:solid 3px #2db0e7;
+}
+
+
+/*難易度start*/
+
+.jobsample{
+float:left;
+//width:334px;
+width:47%;
+height:190px;
+border:solid 1px #b5b5b5;
+margin:7px 14px 7px 0px;
+background-color:#f3f3f3;
+position: relative;
+}
+
+.jobsample h4 img{
+width:46px;
+vertical-align: -15px;
+margin:5px 15px 0px 5px;
+}
+
+.jobsample h4 {
+margin:0px;
+font-size:21px;
+font-family: “sans-serif”;
+}
+
+.jobsample h4 a{
+text-decoration: none; 
+}
+
+
+.jobsample .sampleleft{
+width:152px;
+height:120px;
+float:left;
+background-image:url(img/top/eazy.png);
+background-repeat: no-repeat;
+background-position: 50% 100%; 
+}
+
+
+.jobsample .sampleright{
+width:152px;
+height:120px;
+float:left;
+background-image:url(img/top/diff.png);
+background-repeat: no-repeat;
+background-position: 50% 90%; 
+}
+
+.jobsample .left{
+width:152px;
+height:104px;
+float:left;
+//background-image:url(img/top/eazy.png);
+background-repeat: no-repeat;
+background-position: 30% 50%; 
+}
+
+
+.jobsample .right{
+width:152px;
+height:104px;
+float:left;
+//background-image:url(img/top/diff.png);
+background-repeat: no-repeat;
+background-position: 30% 50%; 
+}
+
+
+
+.jobsample ul{
+margin:0px;
+padding:5px 0px 0px 5px;
+list-style-type:none;
+}
+
+.jobsample ul li{
+color:#505050;
+margin-top:7px;
+font-size:11px;
+padding-bottom:3px;
+font-weight: bolder;
+}
+
+.jobsample p{
+font-size:13px;
+padding-top:5px;
+margin-left:5px;
+}
+
+/*難易度fin*/
+
+.job .sampleleft{
+width:152px;
+height:120px;
+float:left;
+background-image:url(img/top/eazy.png);
+background-repeat: no-repeat;
+background-position: 50% 100%; 
+}
+
+
+.job .sampleright{
+width:152px;
+height:120px;
+float:left;
+background-image:url(img/top/diff.png);
+background-repeat: no-repeat;
+background-position: 50% 90%; 
+}
+
+.job .left{
+width:152px;
+height:104px;
+float:left;
+//background-image:url(img/top/eazy.png);
+background-repeat: no-repeat;
+background-position: 30% 50%; 
+}
+
+
+.job .right{
+width:152px;
+height:104px;
+float:left;
+//background-image:url(img/top/diff.png);
+background-repeat: no-repeat;
+background-position: 30% 50%; 
+}
+
+
+
+.job ul{
+margin:0px;
+padding:5px 0px 0px 5px;
+list-style-type:none;
+}
+
+.job ul li{
+color:#505050;
+margin-top:7px;
+font-size:11px;
+padding-bottom:3px;
+font-weight: bolder;
+}
+
+.job p{
+font-size:13px;
+padding-top:5px;
+margin-left:5px;
+}
+
+/* もっと見る */
+
+.more{
+margin-bottom:10px;
+margin-left:242px;
+font-size:12px;
+}
+/* ボタン共通 */
+
+.button {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius:3px;
+	line-height: 54px;
+	outline: none;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+
+
+/* デザインｊ */
+
+.button {
+	position: relative;
+	z-index: 2;
+	background-color: #fff;
+	border: 1px solid #333;
+	color: #333;
+	line-height: 20px;
+	overflow: hidden;
+	margin-bottom: 2px
+}
+.button:hover {
+	color: #fff;
+}
+.button::after {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.button:hover::after {
+	-webkit-transform: scale(2) rotate(180deg);
+	transform: scale(2) rotate(180deg);
+	background: #333;
+}
+
+/*下線指示*/
+
+.sampleleft li{
+padding:1px;
+border-bottom:solid 2px #2db0e7;
+padding-bottom:2px;
+}
+
+
+.sampleright li{
+padding:1px;
+border-bottom:solid 2px #F75F5F;
+padding-bottom:2px;
+}
+
+.left li{
+padding:1px;
+border-bottom:solid 2px #2db0e7;
+padding-bottom:2px;
+}
+
+
+.right li{
+padding:1px;
+border-bottom:solid 2px #F75F5F;
+padding-bottom:2px;
+}
+
+/*下線指示終了*/
+
+/* サイドバー設定 */
+
+
+#aside h3{
+width:290px;
+margin:0 0 5px 0;
+padding:8px 0px  8px 10px;
+background: #4bb7a5;
+color:#FFF;
+border-radius:5px;
+}
+
+#aside h4{
+margin:0px;
+padding:14px 0px 0px 10px;
+font-size:16px;
+color:#fff;
+}
+
+#stepup{
+width:290px;
+margin:10px 10px 10px 0px;
+//background-color:#2db0e7;
+position: relative;
+}
+
+#expert{
+width:290px;
+margin:0 10px 10px 0px;
+//background-color:#fbb112;
+position: relative;
+}
+
+
+#cragtsman{
+width:290px;
+margin:0 10px 10px 0px;
+//background-color:#4bb7a5;
+position: relative;
+}
+
+
+#private{
+width:290px;
+margin:0 10px 10px 0px;
+//background-color:#f75f5f;
+position: relative;
+}
+
+.kari{
+
+
+}
+
+.kari img{
+width:290px;
+}
+
+/* ディスプレイ */
+#toggle{
+display: none;
+}
+
+～以下、画面の横幅が768pxまでの場合のスタイル記入～
+}
+
+/*===============================================
+●tablet.css 画面の横幅が768pxまで
+===============================================*/
+@media screen and (max-width: 768px){
+
+/* ディスプレイ */
+#toggle{
+display: none;
+}
+
+	～以下、画面の横幅が768pxまでの場合のスタイル記入～
+}
+/*===============================================
+●smart.css  画面の横幅が640pxまで
+===============================================*/
+@media screen and (max-width:640px){
+
+.information h2{
+display: none !important;
+}
+
+
+
+～以下、画面の横幅が640pxまでの場合のスタイル記入～
+}

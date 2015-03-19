@@ -1,0 +1,60 @@
+.business h3{
+width:670px;
+margin:0 0 5px 0;
+padding:8px 10px;
+background: #2db0e7;
+color:#FFF;
+border-radius: 5px;
+}
+
+.stepcategory{
+border-bottom:dotted 2px #2db0e7;
+width:680px;
+}
+
+.category2{
+border-bottom:dotted 2px #2db0e7;
+width:680px;
+background-color:#f3f3f3;
+}
+
+.ctitle{
+float:left;
+width:159px;
+list-style-type: none;
+padding:0px;
+margin:0px;
+}
+
+.ctitle h3{
+margin:12px 5px 8px 10px;
+}
+
+.ctitle img{
+margin:0  0 5px 20px;
+}
+
+.name {
+float:left;
+padding-left:10px;
+width:510px;
+margin-top:10px;
+margin-bottom:8px;
+}
+
+.name li{
+display:inline;
+line-height: 1.5em;
+font-size:13px;
+}
+
+/* サイドバー */
+
+#aside h3{
+width:290px;
+margin:0 0 5px 0;
+padding:8px 10px;
+background: #4bb7a5;
+color:#FFF;
+border-radius:5px;
+}
